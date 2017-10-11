@@ -1,0 +1,30 @@
+<div class="col s6 columa">
+
+  <input placeholder="Buscar" ng-model="search" type="text"  name="" value="">
+
+  <table class="highlight">
+ <thead>
+   <tr>
+       <th>Nombre</th>
+       <th>Pais</th>
+       <th>Contacto</th>
+       <th>Email</th>
+   </tr>
+ </thead>
+
+ <tbody>
+   <tr ng-repeat="user in vm.firebaseData | filter:search">
+     <td>{{user.nombre}}</td>
+     <td>{{user.telefono}}</td>
+     <td>{{user.web}}</td>
+     <td>{{user.pais}}</td>
+   </tr>
+
+
+ </tbody>
+</table>
+
+
+
+</div>
+</div>
