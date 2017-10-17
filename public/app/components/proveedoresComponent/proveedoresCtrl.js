@@ -11,9 +11,14 @@
 
 
 
-      proveedoresCtrl.$inject =['$location'];
-      function proveedoresCtrl(){
+      proveedoresCtrl.$inject =['$firebaseArray', 'firebaseData', '$scope'];
+      function proveedoresCtrl(firebaseData,$firebaseArray, $scope){
         var vm = this;
+
+
+      vm.firebaseData =  firebaseData;
+
+        console.log(vm.firebaseData)
       }
 
 

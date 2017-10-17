@@ -12,6 +12,8 @@
 
            return $firebaseArray(ref);
 
+           alert(ref)
+
 
        }
 

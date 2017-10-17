@@ -1,6 +1,6 @@
 <div class="col s6 columa">
 
-  <input placeholder="Buscar" ng-model="search" type="text"  name="" value="">
+
 
   <table class="highlight">
  <thead>
@@ -13,7 +13,8 @@
  </thead>
 
  <tbody>
-   <tr ng-repeat="user in vm.firebaseData | filter:search">
+   <tr ng-repeat="user in vm.firebaseData ">
+       
      <td>{{user.nombre}}</td>
      <td>{{user.telefono}}</td>
      <td>{{user.web}}</td>

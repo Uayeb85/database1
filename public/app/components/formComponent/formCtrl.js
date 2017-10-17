@@ -59,42 +59,6 @@
 
                 });
 
-                // reset the message input
-           $scope.nombre = "";
-           $scope.telefono = "";
-           $scope.web = "";
-           $scope.pais = "";
-           $scope.rfc = "";
-           $scope.tax = "";
-           $scope.producto = "";
-           $scope.direccion_1 = "";
-
-           $scope.contacto_1 = "";
-           $scope.puesto_1 = "";
-           $scope.email_1 = "";
-           $scope.telefono_1 = "";
-
-           $scope.contacto_2 = "";
-           $scope.puesto_2 = "";
-           $scope.email_2 = "";
-           $scope.telefono_2 = "";
-
-           $scope.contacto_3 = "";
-           $scope.puesto_3 = "";
-           $scope.email_3 = "";
-           $scope.telefono_3 = "";
-
-           $scope.beneficiario = "";
-           $scope.banco_nacional = "";
-           $scope.cuenta = "";
-           $scope.sucursal = "";
-           $scope.clabe = "";
-
-           $scope.beneficiario_2 = "";
-           $scope.banco_internacional = "";
-           $scope.direccion_banco = "";
-           $scope.cta = "";
-           $scope.swift = "";
 
            console.log("si funciona")
          };
